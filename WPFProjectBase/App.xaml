@@ -1,0 +1,20 @@
+﻿<Application x:Class="WPFProjectBase.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WPFProjectBase"
+             StartupUri="View/MainV.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary>
+                    <vm:ViewModelLocator xmlns:vm="clr-namespace:WPFProjectBase.ViewModel" x:Key="Locator" />
+                </ResourceDictionary>
+
+                <ResourceDictionary Source="pack://application:,,,/Skin/StyledControls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/Skin/DarkRed.xaml" />
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+
+    </Application.Resources>
+</Application>
