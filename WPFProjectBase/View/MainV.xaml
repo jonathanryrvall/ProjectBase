@@ -15,6 +15,11 @@
                 Height="50"
                 Command="{Binding TestCommand}"
                 Content="Test" />
+        <Label x:Name="label"
+               Margin="227,99,0,0"
+               HorizontalAlignment="Left"
+               VerticalAlignment="Top"
+               Content="{Binding TestValue}" />
 
     </Grid>
 </Window>

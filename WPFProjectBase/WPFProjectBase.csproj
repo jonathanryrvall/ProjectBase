@@ -12,6 +12,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ModernUI\ModernUI.csproj" />
     <ProjectReference Include="..\ProjectCommon\ProjectCommon.csproj" />
   </ItemGroup>
 

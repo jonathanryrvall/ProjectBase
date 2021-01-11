@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ProjectCommon.Config
+namespace ProjectCommon.Configuration
 {
     /// <summary>
     /// Database configuration
     /// </summary>
-    public class DBConfig
+    public class DBConfig : IConfig
     {
         public string Server = "localhost";
         public string UserID = "admin";

@@ -5,7 +5,7 @@ using System.Text;
 using System.Xml;
 using System.Xml.Serialization;
 
-namespace ProjectCommon.Config
+namespace ProjectCommon.Configuration
 {
     /// <summary>
     /// Manages loading and saving of configuration

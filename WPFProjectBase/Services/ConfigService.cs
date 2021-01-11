@@ -1,4 +1,4 @@
-﻿using ProjectCommon.Config;
+﻿using ProjectCommon.Configuration;
 using System;
 using System.Collections.Generic;
 using System.Text;

@@ -10,8 +10,8 @@
                     <vm:ViewModelLocator xmlns:vm="clr-namespace:WPFProjectBase.ViewModel" x:Key="Locator" />
                 </ResourceDictionary>
 
-                <ResourceDictionary Source="pack://application:,,,/Skin/StyledControls.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/Skin/DarkRed.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/ModernUI;component/StyledControls.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/ModernUI;component/DarkRed.xaml" />
 
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
