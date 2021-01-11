@@ -1,0 +1,1 @@
+"C:\Program Files\WinRAR\Winrar.exe" a -r ..\project-base-full-.rar -agYYYYMMDDHHmmss -x"*\bin\" -x"*\packages\" -x"*\obj\" -x"*\.vs\" %CD%
