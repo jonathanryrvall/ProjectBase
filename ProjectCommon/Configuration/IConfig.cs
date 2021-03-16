@@ -4,7 +4,7 @@ using System.Text;
 
 namespace ProjectCommon.Configuration
 {
-    interface IConfig
+    public interface IConfig
     {
     }
 }
