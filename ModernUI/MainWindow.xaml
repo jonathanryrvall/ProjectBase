@@ -9,5 +9,13 @@
         Height="450"
         Background="{DynamicResource PaperBrush}"
         mc:Ignorable="d">
-    <Grid />
+    <Grid>
+        <Button x:Name="button"
+                Width="117"
+                Height="58"
+                Margin="150,113,0,0"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Content="Button" />
+    </Grid>
 </Window>
